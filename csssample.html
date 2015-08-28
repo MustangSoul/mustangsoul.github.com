@@ -2,12 +2,23 @@
 <head>
     <title>GeekZhou</title>
     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
-    <script type="text/javascript">
-        $("#one").click(function(){console.log('8');});
-    </script>
+    <style>
+        #one {
+            background-color:white;
+            width:100%;
+            height:50px;
+            margin:0;
+            overflow:hidden;
+            transition: height 2s;
+        }
+
+        #one.expand {
+            height:500px;
+        }
+    </style>
 </head>
 <body style="margin:0;">
-    <div id="one" style="background-color:white; width:100%; height:50px; margin:0; overflow:hidden; transition: height 2s;" >
+    <div id="one">
         <div id="two" style="width:100%; height:50px; background-color:blue;"></div>
         <div id="three" style="width:100%; height:500px; background-color:black;margin:0;text-align:center;">
             <h1 style="color:white; margin:0;">WWW.GEEKZHOU.COM</h1>
@@ -29,5 +40,13 @@
         </div>
     </div>
     <div id="geek" style="width:100%; height:100px; background-color:red;"></div>
+    <script>
+        $('#one').click(function(){
+            if ($(this).hasClass('expand')) {
+                $(this).removeClass('expand')
+            } else {
+                $(this).addClass('expand') }
+        });
+    </script>
 </body>
 </html>
