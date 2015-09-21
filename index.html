@@ -1,43 +1,12 @@
-<!DOCTYPE html>
-<html lang="en-us">
+---
+layout:default
+title:我的Blog
+---
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Zhou Yan's Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">www.geekzhou.com</h1>
-      <h2 class="project-tagline">Zhou,Yan's Personal Technical Blog</h2>
-    </section>
-
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>欢迎访问我的网站!</h3>
-
-<p>Hello!我是来自北京的程序员Zhou,Yan.我会在这一方天地与大家分享一些有关Web,Ios,Andriod,UI开发的知识与技巧.目前网站正在搭建中.</p>
-<p>Personal profile</p>
-<img src = "http://imgtest.meiliworks.com/pic/_o/73/b8/a61a90c9184e34023c3a22a5d6cf_960_1280.cg.jpg"/>
-<p>Name:Zhou,Yan</p>
-<p>Live in:Beijing</p>
-<p>Birthday:1993/6</p>
-<p>Master skills:Web,IOS,Andriod,UI</p>
-<p>contact information:geekzhou@163.com</p>
-<a href = "http://www.geekzhou.com/test">hyperreference Test</a>
-
-<h3>
-
-      <footer class="site-footer">
-      </footer>
-
-    </section>
-
-  
-  </body>
-</html>
-
+<h2>{{ page.title }}</h2>
+<p>最新文章</p>
+<ul>
+	{% for post in site.posts %}
+		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
