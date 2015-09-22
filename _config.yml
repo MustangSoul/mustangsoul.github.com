@@ -1,8 +1,8 @@
 # Site settings
-title: Clean Blog
+title: GeekZhou.com
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Zhou Yan's website"
 baseurl: ""
 url: "http://geekzhou.com"
 twitter_username: SBootstrap
