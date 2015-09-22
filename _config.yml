@@ -5,9 +5,8 @@ email: your-email@yourdomain.com
 description: "Zhou Yan's website"
 baseurl: ""
 url: "http://geekzhou.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+weibo_username: 5071192813
+github_username:  MustangSoul
 
 # Build settings
 markdown: kramdown
