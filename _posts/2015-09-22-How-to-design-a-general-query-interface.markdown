@@ -12,7 +12,6 @@ header-img: "img/post-bg-01.jpg"
 
 ## 处理流程
 ![处理流程](http://www.geekzhou.com/img/201509221751.png)
-[链接测试](http://www.baidu.com)
 
 ##处理POST数据
 

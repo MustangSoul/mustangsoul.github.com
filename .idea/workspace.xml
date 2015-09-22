@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown" afterPath="$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="2015-09-22-How-to-design-a-general-query-interface.markdown" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.7176471" vertical-offset="460" max-vertical-offset="915">
+            <state line="13" column="53" selection-start="243" selection-end="243" vertical-scroll-proportion="0.45882353" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -376,7 +375,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.7176471" vertical-offset="460" max-vertical-offset="915">
+        <state line="13" column="53" selection-start="243" selection-end="243" vertical-scroll-proportion="0.45882353" vertical-offset="0" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
