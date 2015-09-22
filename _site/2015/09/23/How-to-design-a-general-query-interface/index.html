@@ -102,16 +102,17 @@
 
 <h2 id="post">处理POST数据</h2>
 
-<p>1.处理时间参数
-假如我们需要进行查询:</p>
+<p>1.处理时间参数</p>
+
+<p>如果我们的查询语句是:</p>
 
 <pre><code>SELECT * FROM `geekzhou` WHERE `op_time` &gt;= '2015-09-22' AND `op_time` &lt;= '2015-09-22' ORDER BY `op_time` DESC LIMIT
 </code></pre>
 
 <p>那么只能查到2015-09-22 00:00:00这一时刻插入的数据，因此如果传入的时间参数是Y-m-d格式的，需要对其进行初始化处理：</p>
 
-<pre><code>$start_date = $this-&gt;request-&gt;POST['start_date']." 00:00:00";`
-$end_date = $this-&gt;request-&gt;POST['end_date']." 23:59:59";`
+<pre><code>$start_date = $this-&gt;request-&gt;POST['start_date']." 00:00:00";
+$end_date = $this-&gt;request-&gt;POST['end_date']." 23:59:59";
 </code></pre>
 
 <p>2.处理fields</p>
@@ -124,6 +125,18 @@ $end_date = $this-&gt;request-&gt;POST['end_date']." 23:59:59";`
     $fields = array('op_type','op_data','op_user','type','op_time');
 }
 </code></pre>
+
+<h2 id="where">根据where的类型做分流处理</h2>
+
+<p>通常情况下使用数组形式的where,如</p>
+
+<p><code>$where = array('op_time'=&gt;array('op'=&gt;'&gt;=','value'=&gt;$start_date),'resources_id'=&gt;$resources_id);</code></p>
+
+<p>但是当某个条件需要查询一个范围内的数据,如2015-09-21&lt;=op_time&lt;=2015-09-22时,就不能使用数组形式的where了,因为在数组中不能为同一个键重复赋值。</p>
+
+<p>这个时候就可以使用字符串形式where,如</p>
+
+<p><code>$where = "op_time BETWEEN '".$start_date."' AND '".$end_date."' AND op_type IN (".$op_str.")";</code></p>
 
 
 

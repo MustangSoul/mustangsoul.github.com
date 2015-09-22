@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="" />
+    <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown" afterPath="$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/09/23/How-to-design-a-general-query-interface/index.html" afterPath="$PROJECT_DIR$/_site/2015/09/23/How-to-design-a-general-query-interface/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +39,7 @@
       <file leaf-file-name="2015-09-22-How-to-design-a-general-query-interface.markdown" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.40823328" vertical-offset="47" max-vertical-offset="705">
+            <state line="49" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.7529412" vertical-offset="415" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -131,9 +135,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
-    <option name="y" value="753" />
+    <option name="y" value="911" />
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="619" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -261,7 +265,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="753" width="1280" height="777" extended-state="6" />
+    <frame x="1920" y="911" width="1280" height="619" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -275,7 +279,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -373,7 +377,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.40823328" vertical-offset="47" max-vertical-offset="705">
+        <state line="49" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.7529412" vertical-offset="415" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
