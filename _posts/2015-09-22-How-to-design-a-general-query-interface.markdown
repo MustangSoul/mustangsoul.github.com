@@ -19,26 +19,22 @@ header-img: "img/post-bg-01.jpg"
 1.处理时间参数
 假如我们需要进行查询:
 
-SELECT * FROM `geekzhou` WHERE `op_time` >= '2015-09-22' AND `op_time` <= '2015-09-22' ORDER BY `op_time` DESC LIMIT
+    SELECT * FROM `geekzhou` WHERE `op_time` >= '2015-09-22' AND `op_time` <= '2015-09-22' ORDER BY `op_time` DESC LIMIT
 
 那么只能查到2015-09-22 00:00:00这一时刻插入的数据，因此如果传入的时间参数是Y-m-d格式的，需要对其进行初始化处理：
 
-如
-
-`$start_date = $this->request->POST['start_date']." 00:00:00";`
-
-`$end_date = $this->request->POST['end_date']." 23:59:59";`
+    $start_date = $this->request->POST['start_date']." 00:00:00";`
+    $end_date = $this->request->POST['end_date']." 23:59:59";`
 
 2.处理fields
 
 凡是能够在外层处理的，尽量在外层处理
 
 
-```php
-if(!empty($fields)) {
-    $fields = explode(',',$fields);
-}else {
-    $fields = array('op_type','op_data','op_user','type','op_time');
-}
+    if(!empty($fields)) {
+        $fields = explode(',',$fields);
+    }else {
+        $fields = array('op_type','op_data','op_user','type','op_time');
+    }
 
-```
+
