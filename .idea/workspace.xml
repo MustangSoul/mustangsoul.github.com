@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page2/index.html" afterPath="$PROJECT_DIR$/_site/page2/index.html" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="66" selection-start="3033" selection-end="3033" vertical-scroll-proportion="0.58768654" vertical-offset="840" max-vertical-offset="3615">
+            <state line="80" column="14" selection-start="3097" selection-end="3097" vertical-scroll-proportion="-15.0" vertical-offset="840" max-vertical-offset="3615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_site/page2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="66" selection-start="3039" selection-end="3039" vertical-scroll-proportion="0.34701493" vertical-offset="969" max-vertical-offset="2895">
               <folding />
             </state>
           </provider>
@@ -48,6 +57,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/_site/index.html" />
+        <option value="$PROJECT_DIR$/_site/page2/index.html" />
       </list>
     </option>
   </component>
@@ -103,6 +113,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -159,7 +170,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="66" selection-start="3033" selection-end="3033" vertical-scroll-proportion="0.58768654" vertical-offset="840" max-vertical-offset="3615">
+        <state line="80" column="14" selection-start="3097" selection-end="3097" vertical-scroll-proportion="-15.0" vertical-offset="840" max-vertical-offset="3615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/page2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="66" selection-start="3039" selection-end="3039" vertical-scroll-proportion="0.34701493" vertical-offset="969" max-vertical-offset="2895">
           <folding />
         </state>
       </provider>
