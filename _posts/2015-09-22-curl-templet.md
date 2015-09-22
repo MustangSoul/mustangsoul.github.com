@@ -11,6 +11,6 @@ header-img: "img/post-bg-02.jpg"
 
 ##模板
 
-    curl --header 'Meilishuo:uid:0;ip:0.0.0.0' -d '' http://*.*.yanzhourd1.rdlab.meilishuo.com/*/*
+    curl --header 'Meilishuo:uid:0;ip:0.0.0.0' -d '*' http://*.*.yanzhourd1.rdlab.meilishuo.com/*/*
 
 ##参数字典
