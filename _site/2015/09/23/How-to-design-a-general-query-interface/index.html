@@ -100,6 +100,34 @@
 <p><img src="http://www.geekzhou.com/img/201509221751.png" alt="处理流程" />
 <a href="http://www.baidu.com">链接测试</a></p>
 
+<h2 id="post">处理POST数据</h2>
+
+<p>1.处理时间参数
+假如我们需要进行查询:</p>
+
+<p>SELECT * FROM <code>geekzhou</code> WHERE <code>op_time</code> &gt;= ‘2015-09-22’ AND <code>op_time</code> &lt;= ‘2015-09-22’ ORDER BY <code>op_time</code> DESC LIMIT</p>
+
+<p>那么只能查到2015-09-22 00:00:00这一时刻插入的数据，因此如果传入的时间参数是Y-m-d格式的，需要对其进行初始化处理：</p>
+
+<p>如</p>
+
+<p><code>$start_date = $this-&gt;request-&gt;POST['start_date']." 00:00:00";</code></p>
+
+<p><code>$end_date = $this-&gt;request-&gt;POST['end_date']." 23:59:59";</code></p>
+
+<p>2.处理fields</p>
+
+<p>凡是能够在外层处理的，尽量在外层处理</p>
+
+<p>```php
+if(!empty($fields)) {
+    $fields = explode(‘,’,$fields);
+}else {
+    $fields = array(‘op_type’,’op_data’,’op_user’,’type’,’op_time’);
+}</p>
+
+<p>```</p>
+
 
                 <hr>
 
