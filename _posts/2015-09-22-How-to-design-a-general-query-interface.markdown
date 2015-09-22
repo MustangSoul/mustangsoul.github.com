@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "甲乙丙丁戊"
-subtitle:   "这里是副标题."
-date:       2015-09-22 11:00:00
+title:      "通用查询接口的结构化设计方式"
+subtitle:   "工作总结."
+date:       2015-09-22 17:00:00
 author:     "Geekzhou"
 header-img: "img/post-bg-01.jpg"
 ---
