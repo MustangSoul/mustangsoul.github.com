@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown" afterPath="$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/09/23/How-to-design-a-general-query-interface/index.html" afterPath="$PROJECT_DIR$/_site/2015/09/23/How-to-design-a-general-query-interface/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
@@ -39,7 +38,7 @@
       <file leaf-file-name="2015-09-22-How-to-design-a-general-query-interface.markdown" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.7529412" vertical-offset="415" max-vertical-offset="870">
+            <state line="51" column="0" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.7176471" vertical-offset="460" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -377,7 +376,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.7529412" vertical-offset="415" max-vertical-offset="870">
+        <state line="51" column="0" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.7176471" vertical-offset="460" max-vertical-offset="915">
           <folding />
         </state>
       </provider>

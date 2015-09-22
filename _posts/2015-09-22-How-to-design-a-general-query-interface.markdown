@@ -41,12 +41,15 @@ header-img: "img/post-bg-01.jpg"
 
 通常情况下使用数组形式的where,如
 
-`$where = array('op_time'=>array('op'=>'>=','value'=>$start_date),'resources_id'=>$resources_id);`
+    $where = array('op_time'=>array('op'=>'>=','value'=>$start_date),'resources_id'=>$resources_id);
 
 但是当某个条件需要查询一个范围内的数据,如2015-09-21<=op_time<=2015-09-22时,就不能使用数组形式的where了,因为在数组中不能为同一个键重复赋值。
 
 这个时候就可以使用字符串形式where,如
 
-`$where = "op_time BETWEEN '".$start_date."' AND '".$end_date."' AND op_type IN (".$op_str.")";`
+    $where = "op_time BETWEEN '".$start_date."' AND '".$end_date."' AND op_type IN (".$op_str.")";
+
+
+
 
 
