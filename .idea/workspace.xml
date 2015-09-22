@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-09-22-demo.markdown" afterPath="$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown" />
-    </list>
+    <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="" />
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="-6.25" vertical-offset="60" max-vertical-offset="3585">
+            <state line="10" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="2610">
               <folding />
             </state>
           </provider>
@@ -317,16 +315,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/page2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="66" selection-start="3037" selection-end="3037" vertical-scroll-proportion="1.9444444" vertical-offset="0" max-vertical-offset="2895">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="-6.25" vertical-offset="60" max-vertical-offset="3585">
+        <state line="10" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="2610">
           <folding />
         </state>
       </provider>
