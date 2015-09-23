@@ -94,7 +94,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<hr />
+				<h2 id="section">函数映射</h2>
+
+<hr />
 
 <table>
   <thead>
@@ -102,6 +104,7 @@
       <th>变量值</th>
       <th>isset()返回值</th>
       <th>empty()返回值</th>
+      <th> </th>
     </tr>
   </thead>
   <tbody>
@@ -109,29 +112,50 @@
       <td><span style="color:red">NULL</span></td>
       <td><span style="color:red">0</span></td>
       <td><span style="color:red">1</span></td>
+      <td> </td>
     </tr>
     <tr>
       <td>false</td>
       <td>1</td>
       <td>1</td>
+      <td> </td>
     </tr>
     <tr>
       <td>array()</td>
       <td>1</td>
       <td>1</td>
+      <td> </td>
     </tr>
     <tr>
       <td>0</td>
       <td>1</td>
       <td>1</td>
+      <td> </td>
     </tr>
     <tr>
       <td>“0”</td>
       <td>1</td>
       <td>1</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>设置过的非上述变量</td>
+      <td>1</td>
+      <td> </td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>未设置的变量</td>
+      <td>0</td>
+      <td>1</td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
+
+<hr />
+
+<h2 id="section-1">总结</h2>
 
 
                 <hr>

@@ -7,6 +7,8 @@ author:     "Geekzhou"
 header-img: "img/post-bg-04.jpg"
 ---
 
+##函数映射
+
 ***
 
 |变量值|isset()返回值|empty()返回值|
@@ -16,3 +18,9 @@ header-img: "img/post-bg-04.jpg"
 |array()|1|1|
 |0|1|1|
 |"0"|1|1|
+|设置过的非上述变量|1|0|
+|未设置的变量|0|1|
+
+***
+
+##总结
