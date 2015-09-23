@@ -24,3 +24,9 @@ header-img: "img/post-bg-04.jpg"
 ***
 
 ##总结
+
+1.判断变量是否被设置过
+
+有两种方案可以选择,一种是使用isset()来判别,一种是使用!empty()来判别.二者的区别为当变量($a)的值设为<span style = "color:blue">array(),flase,0,"0"</span>时,$a明明被设置过，但是!empty()返回的是0.这样就没有达到辨别变量是否被设置的初中,因此,
+
+<span style = "color:red">判断变量是否被设置过时,必须使用isset()函数.</span>

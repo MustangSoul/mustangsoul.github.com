@@ -104,7 +104,6 @@
       <th>变量值</th>
       <th>isset()返回值</th>
       <th>empty()返回值</th>
-      <th> </th>
     </tr>
   </thead>
   <tbody>
@@ -112,43 +111,36 @@
       <td><span style="color:red">NULL</span></td>
       <td><span style="color:red">0</span></td>
       <td><span style="color:red">1</span></td>
-      <td> </td>
     </tr>
     <tr>
       <td>false</td>
       <td>1</td>
       <td>1</td>
-      <td> </td>
     </tr>
     <tr>
       <td>array()</td>
       <td>1</td>
       <td>1</td>
-      <td> </td>
     </tr>
     <tr>
       <td>0</td>
       <td>1</td>
       <td>1</td>
-      <td> </td>
     </tr>
     <tr>
       <td>“0”</td>
       <td>1</td>
       <td>1</td>
-      <td> </td>
     </tr>
     <tr>
       <td>设置过的非上述变量</td>
       <td>1</td>
-      <td> </td>
       <td>0</td>
     </tr>
     <tr>
       <td>未设置的变量</td>
       <td>0</td>
       <td>1</td>
-      <td> </td>
     </tr>
   </tbody>
 </table>
@@ -156,6 +148,12 @@
 <hr />
 
 <h2 id="section-1">总结</h2>
+
+<p>1.判断变量是否被设置过</p>
+
+<p>有两种方案可以选择,一种是使用isset()来判别,一种是使用!empty()来判别.二者的区别为当变量($a)的值设为<span style="color:blue">array(),flase,0,”0”</span>时,$a明明被设置过，但是!empty()返回的是0.这样就没有达到辨别变量是否被设置的初中,因此,</p>
+
+<p><span style="color:red">判断变量是否被设置过时,必须使用isset()函数.</span></p>
 
 
                 <hr>
