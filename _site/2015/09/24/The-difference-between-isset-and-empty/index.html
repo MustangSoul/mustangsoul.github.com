@@ -94,7 +94,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<h2 id="section">函数映射</h2>
+				<p><img src="http://www.geekzhou.com/bimg/2015092321.png" alt="思维导图" /></p>
+
+<h2 id="section">函数映射表</h2>
 
 <hr />
 
@@ -133,12 +135,12 @@
       <td>1</td>
     </tr>
     <tr>
-      <td>设置过的非上述变量</td>
+      <td>赋过值的非上述变量</td>
       <td>1</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>未设置的变量</td>
+      <td>未赋值的变量</td>
       <td>0</td>
       <td>1</td>
     </tr>
@@ -149,11 +151,78 @@
 
 <h2 id="section-1">总结</h2>
 
-<p>1.判断变量是否被设置过</p>
+<p>1.判断变量是否被赋过值的方式</p>
 
-<p>有两种方案可以选择,一种是使用isset()来判别,一种是使用!empty()来判别.二者的区别为当变量($a)的值设为<span style="color:blue">array(),flase,0,”0”</span>时,$a明明被设置过，但是!empty()返回的是0.这样就没有达到辨别变量是否被设置的初中,因此,</p>
+<p>有两种方案可以选择,一种是使用isset()来判别,一种是使用!empty()来判别.二者的区别为当变量($a)的值设为<span style="color:green">array(),flase,0,”0”</span>时,<span style="color:blue">$a明明被赋过值，但是!empty()返回的是0.</span>这样就没有达到辨别变量是否被赋值的初衷,因此,</p>
 
-<p><span style="color:red">判断变量是否被设置过时,必须使用isset()函数.</span></p>
+<p><span style="color:red">判断变量是否被赋过值时,必须使用isset()函数.</span></p>
+
+<p>2.isset(NULL) 返回的值为 0 的原因</p>
+
+<p>首先确定未定义的变量返回什么值.执行下面的代码:
+    $lab = $undefined_variable;</p>
+
+<pre><code>if($lab == 0) {
+
+    echo '$lab == 0,true!';echo "&lt;br&gt;";
+}
+if($lab == NULL) {
+
+    echo '$lab == NULL,true!';echo "&lt;br&gt;";
+}
+if($lab == false) {
+
+    echo '$lab == false,true!';echo "&lt;br&gt;";
+}
+if($lab === 0) {
+
+    echo '$lab === 0,true!';echo "&lt;br&gt;";
+}
+if($lab === NULL) {
+
+    echo '$lab === NULL,true!';echo "&lt;br&gt;";
+}
+if($lab === false) {
+
+    echo '$lab === false,true!';echo "&lt;br&gt;";
+} 结果为:
+</code></pre>
+
+<p>$lab == 0,true!</p>
+
+<p>$lab == NULL,true!</p>
+
+<p>$lab == false,true!</p>
+
+<p>$lab === NULL,true!</p>
+
+<p>因此可以确定:<span style="color:red">未定义变量的返回值为NULL.</span>
+因此,isset(NULL)返回的值为0的原因为:NULL是未定义变量返回的值.</p>
+
+<p>3.扩展</p>
+
+<h3 id="nullfalse">相等符号(==)和全等符号(===)对输入的0,null,false返回的结果不同容易导致的问题</h3>
+
+<h3 id="isset-">易由 isset()函数的返回值 导致的逻辑问题</h3>
+
+<p>如果输入的变量被赋过值,isset()返回true.
+如果输入的变量没有被赋过值,isset()返回false.</p>
+
+<p>执行下面的代码:
+    $val = 6;
+    $res = isset($val)? : ‘none’;</p>
+
+<pre><code>if($res === true) {
+    echo '$res = true';
+}
+if($res === 6) {
+    echo '$res = 6';
+}
+</code></pre>
+
+<p>结果为$res = true.
+因此,<span style="color:red">当在三目运算符的条件部分isset()函数时,不能省略中间的参数.</span></p>
+
 
 
                 <hr>

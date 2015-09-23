@@ -84,7 +84,7 @@
       <file leaf-file-name="2015-09-23-The-difference-between-isset-and-empty.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.92287916" vertical-offset="106" max-vertical-offset="555">
+            <state line="96" column="24" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.6915167" vertical-offset="1171" max-vertical-offset="1620">
               <folding />
             </state>
           </provider>
@@ -147,8 +147,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1918" />
-    <option name="y" value="826" />
+    <option name="x" value="1948" />
+    <option name="y" value="910" />
     <option name="width" value="1280" />
     <option name="height" value="619" />
   </component>
@@ -278,7 +278,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1918" y="826" width="1280" height="619" extended-state="6" />
+    <frame x="1948" y="910" width="1280" height="619" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -411,7 +411,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.92287916" vertical-offset="106" max-vertical-offset="555">
+        <state line="96" column="24" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.6915167" vertical-offset="1171" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
