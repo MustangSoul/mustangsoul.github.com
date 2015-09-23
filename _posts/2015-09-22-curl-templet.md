@@ -4,7 +4,7 @@ title:      "Curl模板"
 subtitle:   "模板"
 date:       2015-09-22 20:00:00
 author:     "Geekzhou"
-header-img: "img/post-bg-02.jpg"
+header-img: "img/post-bg-04.jpg"
 ---
 
 #curl
