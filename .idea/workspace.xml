@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-09-23-Add-Mail-Signature-For-Foxmail-for-mac.markdown" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blogimg/2015092311.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blogimg/2015092312.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blogimg/2015092313.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blogimg/2015092314.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-23-Add-Mail-Signature-For-Foxmail-for-mac.markdown" afterPath="$PROJECT_DIR$/_posts/2015-09-23-Add-Mail-Signature-For-Foxmail-for-mac.markdown" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +32,7 @@
       <file leaf-file-name="2015-09-22-How-to-design-a-general-query-interface.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="161" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="900">
+            <state line="0" column="0" selection-start="0" selection-end="161" vertical-scroll-proportion="3.6" vertical-offset="90" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -73,7 +77,7 @@
       <file leaf-file-name="2015-09-23-Add-Mail-Signature-For-Foxmail-for-mac.markdown" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-23-Add-Mail-Signature-For-Foxmail-for-mac.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.35620052" vertical-offset="0" max-vertical-offset="379">
+            <state line="17" column="8" selection-start="360" selection-end="360" vertical-scroll-proportion="0.24802111" vertical-offset="161" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -385,13 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="161" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-09-22-curl-templet.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
@@ -399,9 +396,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="161" vertical-scroll-proportion="3.6" vertical-offset="90" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-09-23-Add-Mail-Signature-For-Foxmail-for-mac.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.35620052" vertical-offset="0" max-vertical-offset="379">
+        <state line="17" column="8" selection-start="360" selection-end="360" vertical-scroll-proportion="0.24802111" vertical-offset="161" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
