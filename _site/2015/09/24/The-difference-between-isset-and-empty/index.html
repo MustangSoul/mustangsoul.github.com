@@ -185,8 +185,10 @@ if($lab === NULL) {
 if($lab === false) {
 
     echo '$lab === false,true!';echo "&lt;br&gt;";
-} 结果为:
+}
 </code></pre>
+
+<p>结果为:</p>
 
 <p>$lab == 0,true!</p>
 
@@ -202,6 +204,50 @@ if($lab === false) {
 <p>3.扩展</p>
 
 <h3 id="nullfalse">相等符号(==)和全等符号(===)对输入的0,null,false返回的结果不同容易导致的问题</h3>
+
+<p>以strpos()函数为例,执行以下代码:</p>
+
+<pre><code>$string = 'ABCDEFG';
+
+$res1 = strpos($string,'ABC');
+$res2 = strpos($string,'XYZ');
+
+if(!$res1) {
+
+    echo '1';
+    echo "&lt;br&gt;";
+}
+
+if(!$res2) {
+
+    echo '2';
+    echo "&lt;br&gt;";
+}
+
+if($res1 !== false) {
+
+    echo '3';
+    echo "&lt;br&gt;";
+}
+
+if($res2 !== false) {
+
+    echo '4';
+    echo "&lt;br&gt;";
+}
+</code></pre>
+
+<p>结果为:</p>
+
+<p>1</p>
+
+<p>2</p>
+
+<p>3</p>
+
+<p>由实验结果可知.<span style="color:red">此类判断的条件必须使用全等符号,相等符号会产生逻辑错误.</span></p>
+
+<p>(只要两个变量的值相同就称为相等,而全等必须要两个变量的值和类型都相同才可以.)</p>
 
 <h3 id="isset-">易由 isset()函数的返回值 导致的逻辑问题</h3>
 

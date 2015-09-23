@@ -62,6 +62,7 @@ header-img: "img/post-bg-04.jpg"
 
         echo '$lab === false,true!';echo "<br>";
     }
+
 结果为:
 
 $lab == 0,true!
@@ -79,7 +80,48 @@ $lab === NULL,true!
 
 ###相等符号(==)和全等符号(===)对输入的0,null,false返回的结果不同容易导致的问题
 
+以strpos()函数为例,执行以下代码:
 
+    $string = 'ABCDEFG';
+
+    $res1 = strpos($string,'ABC');
+    $res2 = strpos($string,'XYZ');
+
+    if(!$res1) {
+
+        echo '1';
+        echo "<br>";
+    }
+
+    if(!$res2) {
+
+        echo '2';
+        echo "<br>";
+    }
+
+    if($res1 !== false) {
+
+        echo '3';
+        echo "<br>";
+    }
+
+    if($res2 !== false) {
+
+        echo '4';
+        echo "<br>";
+    }
+
+结果为:
+
+1
+
+2
+
+3
+
+由实验结果可知.<span style="color:red">此类判断的条件必须使用全等符号,相等符号会产生逻辑错误.</span>
+
+(只要两个变量的值相同就称为相等,而全等必须要两个变量的值和类型都相同才可以.)
 
 ###易由 isset()函数的返回值 导致的逻辑问题
 
