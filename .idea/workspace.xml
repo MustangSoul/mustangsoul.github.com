@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/2/1.png" afterPath="$PROJECT_DIR$/_site/img/2/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/3/1.png" afterPath="$PROJECT_DIR$/_site/img/3/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/2/2.png" afterPath="$PROJECT_DIR$/_site/img/2/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/3/2.png" afterPath="$PROJECT_DIR$/_site/img/3/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/2/3.png" afterPath="$PROJECT_DIR$/_site/img/2/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/3/3.png" afterPath="$PROJECT_DIR$/_site/img/3/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/2/4.png" afterPath="$PROJECT_DIR$/_site/img/2/4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/3/4.png" afterPath="$PROJECT_DIR$/_site/img/3/4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/2/5.png" afterPath="$PROJECT_DIR$/_site/img/2/5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/3/5.png" afterPath="$PROJECT_DIR$/_site/img/3/5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/2/6.png" afterPath="$PROJECT_DIR$/_site/img/2/6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/3/6.png" afterPath="$PROJECT_DIR$/_site/img/3/6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/2/7.png" afterPath="$PROJECT_DIR$/_site/img/2/7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/3/7.png" afterPath="$PROJECT_DIR$/_site/img/3/7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/2/8.png" afterPath="$PROJECT_DIR$/_site/img/2/8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/3/8.png" afterPath="$PROJECT_DIR$/_site/img/3/8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/2/9.png" afterPath="$PROJECT_DIR$/_site/img/2/9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/img/3/9.png" afterPath="$PROJECT_DIR$/_site/img/3/9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md" afterPath="$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/09/24/The-difference-between-isset-and-empty/index.html" afterPath="$PROJECT_DIR$/_site/2015/09/24/The-difference-between-isset-and-empty/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="14" selection-start="31" selection-end="31" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="645">
+            <state line="6" column="19" selection-start="96" selection-end="96" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -99,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-09-23-The-difference-between-isset-and-empty.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2015-09-23-The-difference-between-isset-and-empty.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="39" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.6143959" vertical-offset="1606" max-vertical-offset="2250">
+            <state line="123" column="39" selection-start="2051" selection-end="2051" vertical-scroll-proportion="-9.56" vertical-offset="1606" max-vertical-offset="2250">
               <folding />
             </state>
           </provider>
@@ -152,7 +132,6 @@
         <option value="$PROJECT_DIR$/_site/page2/index.html" />
         <option value="$PROJECT_DIR$/_posts/.2015-09-22-demo.markdown.swp" />
         <option value="$PROJECT_DIR$/_posts/2015-09-22-demo.markdown" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2015-09-22-curl-templet" />
@@ -160,13 +139,14 @@
         <option value="$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-09-22-curl-templet.md" />
         <option value="$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="y" value="180" />
+    <option name="x" value="1948" />
+    <option name="y" value="910" />
     <option name="width" value="1280" />
     <option name="height" value="619" />
   </component>
@@ -296,7 +276,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="180" width="1280" height="619" extended-state="6" />
+    <frame x="1948" y="910" width="1280" height="619" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -385,23 +365,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="31" selection-end="31" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="43" selection-start="2859" selection-end="2859" vertical-scroll-proportion="-36.25" vertical-offset="0" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <folding />
         </state>
       </provider>
@@ -429,7 +395,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="39" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.6143959" vertical-offset="1606" max-vertical-offset="2250">
+        <state line="123" column="39" selection-start="2051" selection-end="2051" vertical-scroll-proportion="-9.56" vertical-offset="1606" max-vertical-offset="2250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="96" selection-end="96" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
