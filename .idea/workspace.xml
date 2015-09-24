@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="96" selection-end="96" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="645">
+            <state line="6" column="19" selection-start="96" selection-end="96" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -82,7 +83,16 @@
       <file leaf-file-name="2015-09-23-The-difference-between-isset-and-empty.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="39" selection-start="2051" selection-end="2051" vertical-scroll-proportion="-9.56" vertical-offset="1606" max-vertical-offset="2250">
+            <state line="0" column="0" selection-start="0" selection-end="171" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2250">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-09-24-blackboard.markdown" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="5" selection-start="151" selection-end="1917" vertical-scroll-proportion="0.9208443" vertical-offset="446" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -92,15 +102,6 @@
         <entry file="file://$PROJECT_DIR$/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="9.125" vertical-offset="219" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -140,6 +141,7 @@
         <option value="$PROJECT_DIR$/_posts/2015-09-22-curl-templet.md" />
         <option value="$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" />
       </list>
     </option>
   </component>
@@ -276,7 +278,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1948" y="910" width="1280" height="619" extended-state="1" />
+    <frame x="1948" y="910" width="1280" height="619" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -393,13 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="39" selection-start="2051" selection-end="2051" vertical-scroll-proportion="-9.56" vertical-offset="1606" max-vertical-offset="2250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
@@ -409,7 +404,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="96" selection-end="96" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="645">
+        <state line="6" column="19" selection-start="96" selection-end="96" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="171" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="5" selection-start="151" selection-end="1917" vertical-scroll-proportion="0.9208443" vertical-offset="446" max-vertical-offset="885">
           <folding />
         </state>
       </provider>

@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Zhou Yan's website">
 
-    <title>周 言 Blog - GeekZhou</title>
+    <title>黑板 - GeekZhou</title>
 
-    <link rel="canonical" href="http://geekzhou.com/">
+    <link rel="canonical" href="http://geekzhou.com/2015/09/25/blackboard/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -71,103 +71,92 @@
 </nav>
 
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/post-bg-05.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>周 言 Blog</h1>
-                    <hr class="small">
-                    <span class="subheading">The sky is the limit.</span>
+                <div class="post-heading">
+                    <h1>黑板</h1>
+                    
+                    <h2 class="subheading">工具</h2>
+                    
+                    <span class="meta">Posted by ZhouYan on September 25, 2015</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			
-<div class="post-preview">
-    <a href="/2015/09/25/blackboard/">
-        <h2 class="post-title">            黑板
-        </h2>
-        
-        <h3 class="post-subtitle">
-            工具
-        </h3>
-        
-    </a>
-    <p class="post-meta">Posted by ZhouYan on September 25, 2015</p>
-</div>
-<hr>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-<div class="post-preview">
-    <a href="/2015/09/24/The-difference-between-isset-and-empty/">
-        <h2 class="post-title">            函数 isset() & empty() 的区别
-        </h2>
-        
-        <h3 class="post-subtitle">
-            PHP语法
-        </h3>
-        
-    </a>
-    <p class="post-meta">Posted by Geekzhou on September 24, 2015</p>
-</div>
-<hr>
+				<pre><code>public function do_ajax_saveShopCheckQuality()
+{
+    $quality_score = $_POST['quality_score_val'];
+    $pop_score = $_POST['pop_score'];
+    $complex_score = $_POST['complex_score'];
+    $checkNotes = $_POST['checkNotes'];
+    $shop_id = $_POST['shop_id'];
+    //未做审核或审核不通过，只修改质量分
+    if($pop_score == 0 &amp;&amp; $complex_score == 0){
+        $upData = array('quality_score'=&gt;$quality_score,'exe_val'=&gt;2);
+        $run = goodShopsModel::getInstance()-&gt;saveShopVerify($upData,$shop_id);
+    }else{
+        $upData['quality_score'] = $quality_score;
+        $upData['pop_score'] = $pop_score;
+        $upData['complex_score'] = $complex_score;
+        $upData['exe_val'] = 2;
 
-<div class="post-preview">
-    <a href="/2015/09/23/Add-Mail-Signature-For-Foxmail-for-mac/">
-        <h2 class="post-title">            为Foxmail for Mac 添加邮件签名
-        </h2>
-        
-        <h3 class="post-subtitle">
-            工具
-        </h3>
-        
-    </a>
-    <p class="post-meta">Posted by Geekzhou on September 23, 2015</p>
-</div>
-<hr>
+        if($complex_score == 4 || $complex_score == 3){
+            $shopWeight = array('weight'=&gt;100000,
+                'online'=&gt;1,
+                'score'=&gt;$complex_score,
+                'drop_weight'=&gt;'0');
+        }elseif($complex_score == 2){
+            $shopWeight = array('weight'=&gt;0,
+                'online'=&gt;1,
+                'score'=&gt;$complex_score,
+                'drop_weight'=&gt;'0');
+        }elseif($complex_score == 1){
+            $shopWeight = array('weight'=&gt;0,
+                'online'=&gt;2,
+                'score'=&gt;$complex_score,
+                'drop_weight'=&gt;'1000000000');
+        }
 
-<div class="post-preview">
-    <a href="/2015/09/23/curl-templet/">
-        <h2 class="post-title">            Curl模板
-        </h2>
-        
-        <h3 class="post-subtitle">
-            模板
-        </h3>
-        
-    </a>
-    <p class="post-meta">Posted by Geekzhou on September 23, 2015</p>
-</div>
-<hr>
+        //$shopWeight['create_time'] = date('Y-m-d H:i:s');
+        $shopWeight['shop_id'] = $shop_id;
 
-<div class="post-preview">
-    <a href="/2015/09/23/How-to-design-a-general-query-interface/">
-        <h2 class="post-title">            通用查询接口的结构化设计方式
-        </h2>
-        
-        <h3 class="post-subtitle">
-            工作总结
-        </h3>
-        
-    </a>
-    <p class="post-meta">Posted by Geekzhou on September 23, 2015</p>
-</div>
-<hr>
+        $run = goodShopsModel::getInstance()-&gt;saveShopVerify($upData,$shop_id);
+        goodShopsModel::getInstance()-&gt;inOnlineTable($shopWeight);
+    }
+
+    $re = array('succ'=&gt;1);
+    echo json_encode($re);
+    exit;
+}
+</code></pre>
 
 
-<!-- Pager -->
+                <hr>
 
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2015/09/24/The-difference-between-isset-and-empty/" data-toggle="tooltip" data-placement="top" title="函数 isset() & empty() 的区别">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
 
-		</div>
-	</div>
-</div>
+            </div>
+        </div>
+    </div>
+</article>
 
 <hr>
 
