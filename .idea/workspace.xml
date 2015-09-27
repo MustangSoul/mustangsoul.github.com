@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-27-HIFI.md" afterPath="$PROJECT_DIR$/_posts/2015-09-27-HIFI.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/09/27/HIFI/index.html" afterPath="$PROJECT_DIR$/_site/2015/09/27/HIFI/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
@@ -101,7 +102,7 @@
       <file leaf-file-name="2015-09-27-HIFI.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-27-HIFI.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.3166227" vertical-offset="0" max-vertical-offset="379">
+            <state line="13" column="59" selection-start="397" selection-end="397" vertical-scroll-proportion="0.5145119" vertical-offset="0" max-vertical-offset="379">
               <folding />
             </state>
           </provider>
@@ -445,7 +446,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-09-27-HIFI.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.3166227" vertical-offset="0" max-vertical-offset="379">
+        <state line="13" column="59" selection-start="397" selection-end="397" vertical-scroll-proportion="0.5145119" vertical-offset="0" max-vertical-offset="379">
           <folding />
         </state>
       </provider>
