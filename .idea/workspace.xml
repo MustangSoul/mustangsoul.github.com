@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" afterPath="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="" />
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -95,7 +92,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="5" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.84424084" vertical-offset="0" max-vertical-offset="764">
+            <state line="9" column="4" selection-start="151" selection-end="151" vertical-scroll-proportion="0.17670158" vertical-offset="0" max-vertical-offset="764">
               <folding />
             </state>
           </provider>
@@ -512,7 +509,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="5" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.84424084" vertical-offset="0" max-vertical-offset="764">
+        <state line="9" column="4" selection-start="151" selection-end="151" vertical-scroll-proportion="0.17670158" vertical-offset="0" max-vertical-offset="764">
           <folding />
         </state>
       </provider>
