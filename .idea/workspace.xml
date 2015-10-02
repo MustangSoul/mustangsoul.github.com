@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-27-HIFI.md" afterPath="$PROJECT_DIR$/_posts/2015-09-27-HIFI.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/09/25/blackboard/index.html" afterPath="$PROJECT_DIR$/_site/2015/09/25/blackboard/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/09/27/HIFI/index.html" afterPath="$PROJECT_DIR$/_site/2015/09/27/HIFI/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" afterPath="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,19 +79,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-09-24-blackboard.markdown" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="2015-09-24-blackboard.markdown" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="-5.5555553" vertical-offset="0" max-vertical-offset="240">
+            <state line="16" column="5" selection-start="201" selection-end="201" vertical-scroll-proportion="0.47151276" vertical-offset="0" max-vertical-offset="509">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-09-27-HIFI.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2015-09-27-HIFI.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-27-HIFI.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="4869" selection-end="4869" vertical-scroll-proportion="0.9096386" vertical-offset="942" max-vertical-offset="1485">
+            <state line="93" column="0" selection-start="4869" selection-end="4869" vertical-scroll-proportion="-40.2" vertical-offset="390" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
@@ -134,8 +131,8 @@
         <option value="$PROJECT_DIR$/_posts/2015-09-22-curl-templet.md" />
         <option value="$PROJECT_DIR$/_posts/2015-09-23-The-difference-between-isset-and-empty.md" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-09-27-HIFI.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" />
       </list>
     </option>
   </component>
@@ -567,21 +564,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-27-HIFI.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="0" selection-start="4869" selection-end="4869" vertical-scroll-proportion="-40.2" vertical-offset="390" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="-5.5555553" vertical-offset="0" max-vertical-offset="240">
+        <state line="16" column="5" selection-start="201" selection-end="201" vertical-scroll-proportion="0.47151276" vertical-offset="0" max-vertical-offset="509">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-09-27-HIFI.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="4869" selection-end="4869" vertical-scroll-proportion="0.9096386" vertical-offset="942" max-vertical-offset="1485">
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>
