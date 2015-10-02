@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" afterPath="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/09/25/blackboard/index.html" afterPath="$PROJECT_DIR$/_site/2015/09/25/blackboard/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
@@ -84,7 +82,7 @@
       <file leaf-file-name="2015-09-24-blackboard.markdown" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="1" selection-start="154" selection-end="154" vertical-scroll-proportion="0.35363457" vertical-offset="0" max-vertical-offset="509">
+            <state line="19" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.55992144" vertical-offset="0" max-vertical-offset="509">
               <folding />
             </state>
           </provider>
@@ -575,7 +573,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="154" selection-end="154" vertical-scroll-proportion="0.35363457" vertical-offset="0" max-vertical-offset="509">
+        <state line="19" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.55992144" vertical-offset="0" max-vertical-offset="509">
           <folding />
         </state>
       </provider>
