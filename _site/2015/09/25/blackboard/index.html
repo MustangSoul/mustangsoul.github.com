@@ -98,52 +98,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<pre><code>public function do_ajax_saveShopCheckQuality()
-{
-    $quality_score = $_POST['quality_score_val'];
-    $pop_score = $_POST['pop_score'];
-    $complex_score = $_POST['complex_score'];
-    $checkNotes = $_POST['checkNotes'];
-    $shop_id = $_POST['shop_id'];
-    //未做审核或审核不通过，只修改质量分
-    if($pop_score == 0 &amp;&amp; $complex_score == 0){
-        $upData = array('quality_score'=&gt;$quality_score,'exe_val'=&gt;2);
-        $run = goodShopsModel::getInstance()-&gt;saveShopVerify($upData,$shop_id);
-    }else{
-        $upData['quality_score'] = $quality_score;
-        $upData['pop_score'] = $pop_score;
-        $upData['complex_score'] = $complex_score;
-        $upData['exe_val'] = 2;
-
-        if($complex_score == 4 || $complex_score == 3){
-            $shopWeight = array('weight'=&gt;100000,
-                'online'=&gt;1,
-                'score'=&gt;$complex_score,
-                'drop_weight'=&gt;'0');
-        }elseif($complex_score == 2){
-            $shopWeight = array('weight'=&gt;0,
-                'online'=&gt;1,
-                'score'=&gt;$complex_score,
-                'drop_weight'=&gt;'0');
-        }elseif($complex_score == 1){
-            $shopWeight = array('weight'=&gt;0,
-                'online'=&gt;2,
-                'score'=&gt;$complex_score,
-                'drop_weight'=&gt;'1000000000');
-        }
-
-        //$shopWeight['create_time'] = date('Y-m-d H:i:s');
-        $shopWeight['shop_id'] = $shop_id;
-
-        $run = goodShopsModel::getInstance()-&gt;saveShopVerify($upData,$shop_id);
-        goodShopsModel::getInstance()-&gt;inOnlineTable($shopWeight);
-    }
-
-    $re = array('succ'=&gt;1);
-    echo json_encode($re);
-    exit;
-}
-</code></pre>
+				
 
 
                 <hr>
