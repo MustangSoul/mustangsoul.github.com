@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-07-countability.markdown" afterPath="$PROJECT_DIR$/_posts/2015-10-07-countability.markdown" />
-    </list>
+    <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="" />
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
