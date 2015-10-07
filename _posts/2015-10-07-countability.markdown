@@ -32,3 +32,10 @@ noise 通常情况下指噪音，这时是不可数名词。
 
 beard应算作一个特立独行的词汇，通常情况下都是可数的，而且是表示一个人所有的胡须。(e.g., He no longer wears <font color="red">a beard</font>.)
 
+***
+
+<font color="blue">experience</font>
+
+当experience表示经验时，不可数。
+
+当experience<font color="red">表示经历</font>时，可数。(e.g., i had some interesting <font color="red">experiences</font> during the journey.)
