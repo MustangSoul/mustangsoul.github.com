@@ -39,3 +39,20 @@ beard应算作一个特立独行的词汇，通常情况下都是可数的，而
 当experience表示经验时，不可数。
 
 当experience<font color="red">表示经历</font>时，可数。(e.g., i had some interesting <font color="red">experiences</font> during the journey.)
+
+***
+
+<font color="blue">总称名词</font>
+
+我们知道总称名词均不可数，比如news。当要形容总称名词的数量时，可以采用<font color="red">a piece of news,several pieces of news</font>的方式。
+
+以下的名词均为总称名词
+
+|总称名词列表|
+|-|
+|news|
+|advice|
+|information|
+|baggage|
+|luggage|
+|music|
