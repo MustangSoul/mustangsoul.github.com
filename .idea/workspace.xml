@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-10-07-countability.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/10/08/daoxiangcun/index.html" afterPath="$PROJECT_DIR$/_site/2015/10/08/daoxiangcun/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page2/index.html" afterPath="$PROJECT_DIR$/_site/page2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-07-countability.markdown" afterPath="$PROJECT_DIR$/_posts/2015-10-07-countability.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
@@ -95,7 +92,7 @@
       <file leaf-file-name="2015-10-07-countability.markdown" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-10-07-countability.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="136" selection-end="136" vertical-scroll-proportion="0.17612524" vertical-offset="0" max-vertical-offset="511">
+            <state line="6" column="22" selection-start="145" selection-end="145" vertical-scroll-proportion="0.17612524" vertical-offset="0" max-vertical-offset="511">
               <folding />
             </state>
           </provider>
@@ -605,7 +602,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-10-07-countability.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="136" selection-end="136" vertical-scroll-proportion="0.17612524" vertical-offset="0" max-vertical-offset="511">
+        <state line="6" column="22" selection-start="145" selection-end="145" vertical-scroll-proportion="0.17612524" vertical-offset="0" max-vertical-offset="511">
           <folding />
         </state>
       </provider>
