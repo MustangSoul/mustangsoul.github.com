@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489db12b-c637-44f5-a808-0826f00b696f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-07-countability.markdown" afterPath="$PROJECT_DIR$/_posts/2015-10-07-countability.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/10/08/countability/index.html" afterPath="$PROJECT_DIR$/_site/2015/10/08/countability/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <ignored path="www.geekzhou.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
+            <state line="15" column="12" selection-start="339" selection-end="339" vertical-scroll-proportion="0.4197761" vertical-offset="0" max-vertical-offset="536">
               <folding />
             </state>
           </provider>
@@ -90,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-10-07-countability.markdown" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2015-10-07-countability.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-10-07-countability.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.7590361" vertical-offset="87" max-vertical-offset="600">
+            <state line="31" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="-15.12" vertical-offset="87" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -135,7 +133,6 @@
         <option value="$PROJECT_DIR$/_posts/.2015-09-22-demo.markdown.swp" />
         <option value="$PROJECT_DIR$/_posts/2015-09-22-demo.markdown" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2015-09-22-curl-templet" />
         <option value="$PROJECT_DIR$/_posts/2015-09-23-Add-Mail-Signature-For-Foxmail-for-mac.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-09-22-How-to-design-a-general-query-interface.markdown" />
@@ -146,6 +143,7 @@
         <option value="$PROJECT_DIR$/_posts/2015-09-24-blackboard.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-10-07-daoxiangcun.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-10-07-countability.markdown" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -549,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="19" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="645">
@@ -603,7 +594,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-10-07-countability.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.7590361" vertical-offset="87" max-vertical-offset="600">
+        <state line="31" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="-15.12" vertical-offset="87" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="12" selection-start="339" selection-end="339" vertical-scroll-proportion="0.4197761" vertical-offset="0" max-vertical-offset="536">
           <folding />
         </state>
       </provider>
